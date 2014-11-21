@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://tizen.org/Diabetore" version="1.0.0" viewmodes="fullscreen">
+    <tizen:application id="EGXkNSm6YS.Sumon" package="EGXkNSm6YS" required_version="2.1"/>
+    <author email="abhishek2k49@gmail.com">Abhishek Jain</author>
+    <content src="index.html"/>
+    <description>This app helps you to keep records of your fasting and post-prandial blood glucose(sugar) levels in a neat and efficient way.The basic functionalities include adding,search by date,show all,graph plot.</description>
+    <feature name="http://tizen.org/feature/screen.size.normal"/>
+    <icon src="diabicon128.jpg" height="117" width="117"/>
+    <name>Diabetore</name>
+</widget>

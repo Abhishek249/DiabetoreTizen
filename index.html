@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html manifest="manifest.webapp" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Diab</title>
+  <link type="text/css" rel="stylesheet" href="style/cross_browser.css">
+  <link type="text/css" rel="stylesheet" href="fonts/FeuraSans-1.0">
+  <link type="text/css" rel="stylesheet" href="style/input_areas.css">
+  <link type="text/css" rel="stylesheet" href="style/responsive.css">
+  <link type="text/css" rel="stylesheet" href="transitions.css">
+  <link type="text/css" rel="stylesheet" href="util.css">
+  <link type="text/css" rel="stylesheet" href="cross_browser.css">  
+   <link href="style_unstable/toolbars.css" rel="stylesheet" type="text/css">  
+  <link type="text/css" rel="stylesheet" href="diabwitoudflex.css">  
+  
+
+   
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+</head>
+<body>
+		
+	
+	<canvas id="myChart"></canvas>
+	<div id="labels">
+		<div><img alt="Fasting" src="appicons/preimage.png">Fasting</div>
+		<div><img alt="Post-Prandial" src="appicons/postimage.png">Post-Prandial</div>
+	</div>
+	
+	<div id="x-chart">	
+		<div id="main" >Records
+			<div id="back" class="deactive"><img alt="Go back" src="appicons/actionicon_back_30x30.png"></div>
+			<div class="lines"></div>
+			<div class="records"></div>
+			
+			
+		</div>
+		<div id="inputs">	
+			
+			<input type="date" id="date">Date
+			<input type="number" id="pre">Fasting(mg/dL)
+			<input type="number" id="post">Post Prandial(mg/dL)
+		</div>
+		
+		
+
+	</div>	
+	
+	<div id="tools" role="toolbar">
+		
+		<ul class="nav">
+	 
+			<li id="add" class="active"><img alt="Add" src="appicons/actionicon_compose_30x30.png"></li>
+		
+			<li id="show" class="active"><img alt="Show" src="appicons/actionicon_search_30x30.png"></li>
+		
+			<li id="showAll" class="active"><img alt="ShowAll" src="appicons/actionicon_menu_30x30.png"></li>
+		
+			<li id="graph" class="deactive"><img alt="Graph" src="appicons/actionicon_chartline.png"></li>
+		
+			<li id="delete" ><img src="appicons/actionicon_delete_30x30.png"></li>
+		
+		</ul>
+	</div>
+	
+	<script src="js/jquery-2.0.3.js"></script>
+	<script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+
+    <script src="js/Chart.js"></script>
+	<script type="text/javascript" src="diab.js"></script>
+</body>
+</html>

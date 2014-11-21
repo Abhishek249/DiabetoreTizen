@@ -1,0 +1,29 @@
+{
+  "name": "Diabetore",
+  "description": "This app helps you to keep records  of your fasting and post-prandial blood glucose(sugar) levels in a neat and efficient way.The basic functionalities include adding,search by date,show all,graph plot.",
+  "icons": {
+	"52": "/diabicon52x52.jpg",
+	"48": "/diabiconbreakframe48x48.jpg",	
+	"60": "/diabiconbreakframe.jpg",
+    "128": "/diabicon128.jpg"
+  },
+  "launch_path": "/indexdiab2.html",
+  "orientation": ["portrait-primary"],
+  
+  "developer": {
+    "name": "Abhishek2k49,SahebPreet",
+    "url": "http://tyba.com/abhishek2k49/"
+	},
+  "default_locale": "en",
+  "installs_allowed_from": [
+  "https://marketplace.firefox.com"  
+	],
+  
+  "messages": [
+  { "telephony-new-call": "/dialer/index.html#keyboard-view" },
+  { "bluetooth-dialer-command": "/dialer/index.html#keyboard-view" },
+  { "headset-button": "/dialer/index.html#keyboard-view" },
+  { "notification": "/dialer/index.html#keyboard-view" },
+  { "alarm": "/facebook/fb_sync.html" }
+]
+}
